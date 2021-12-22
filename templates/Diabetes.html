@@ -1,0 +1,69 @@
+{% extends "layout.html" %}
+{% block title %}Diabetes Disease Prediction{% endblock %}
+{% block body %}
+
+<!-- Main Body -->
+<div class="container ">
+    <h2>Know Your Chances Of Getting Diabetes In One Click!</h2>
+    <hr>
+    <form action="/diabetes_predict" method="POST">
+        <div class="row">
+            <div class="col-sm">
+                <img src="/static/diabetesCheckingImg.jpg" class="img-fluid" alt="Diabetes Detection Image">
+            </div>
+            <div class="col-sm">
+                <div class="mb-3">
+                    <!-- Pregnancies -->
+                    <label for="Pregnancies" class="form-label">No. of Pregnencies</label>
+                    <input type="number" step="any" class="form-control" id="Pregnancies" name="Pregnancies"
+                        placeholder="No. of Pregnencies" required>
+                </div>
+                <!-- Glucose -->
+                <div class="mb-3">
+                    <label for="Glucose" class="form-label">Glucose Level</label>
+                    <input type="number" step="any" class="form-control" id="Glucose" name="Glucose" placeholder="Glucose Level"
+                        required>
+                </div>
+                <!-- BloodPressure -->
+                <div class="mb-3">
+                    <label for="BloodPressure" class="form-label">Blood Pressure</label>
+                    <input type="number" step="any" class="form-control" id="BloodPressure" name="BloodPressure"
+                        placeholder="Blood Pressure Level" required>
+                </div>
+                <!-- Skin Thickness -->
+                <div class="mb-3">
+                    <label for="SkinThickness" class="form-label">Skin Thickness</label>
+                    <input type="number" step="any" class="form-control" id="SkinThickness" name="SkinThickness"
+                        placeholder="Skin Thickness Level" required>
+                </div>
+                <!-- Insulin -->
+                <div class="mb-3">
+                    <label for="Insulin" class="form-label">Insulin Level</label>
+                    <input type="number" step="any" class="form-control" id="Insulin" name="Insulin" placeholder="Insulin Level"
+                        required>
+                </div>
+                <!-- BMI -->
+                <div class="mb-3">
+                    <label for="BMI" class="form-label">Body Mass Index</label>
+                    <input type="number" step="any" name="BMI" class="form-control" id="BMI" placeholder="Body Mass Index" required>
+                </div>
+                <!-- DiabetesPedigreeFunction -->
+                <div class="mb-3">
+                    <label for="DiabetesPedigreeFunction" class="form-label">Diabetes Pedigree Function</label>
+                    <input type="number" step="any" name="DiabetesPedigreeFunction" class="form-control"
+                        id="DiabetesPedigreeFunction" placeholder="Diabetes Pedigree Function" required>
+                </div>
+                <!-- Age -->
+                <div class="mb-3">
+                    <label for="Age" class="form-label">Age In Years</label>
+                    <input type="number" step="any" class="form-control" id="Age" name="Age" placeholder="Age in Years" required>
+                </div>
+
+                <button type="submit" class="btn btn-outline-dark">Submit</button>
+
+            </div>
+        </div>
+    </form>
+</div>
+
+{% endblock %}

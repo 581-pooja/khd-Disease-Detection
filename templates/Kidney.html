@@ -1,0 +1,78 @@
+{% extends "Layout.html" %}
+{% block title %}Kidney Disease Prediction{% endblock %}
+{% block body %}
+
+<!-- Main Body -->
+<div class="container">
+    <h2>Know Your Chances Of Getting Chronical Kidney Disease In One Click!</h2>
+    <hr>
+    <div class="row">
+        <div class="col-sm">
+            <img src="/static/healthy_kidney.jpg" class="img-fluid" alt="Chronical kidney Detection Image">
+        </div>
+        <div class="col-sm">
+            <form action="/kidney_predict" method="POST">
+                <!-- White Blood cell count -->
+                <div class="mb-3">
+                    <label for="white_blood_cell_count" class="form-label">White blood cell count</label>
+                    <input type="number" step="any" class="form-control" id="white_blood_cell_count" name="white_blood_cell_count"
+                        placeholder="White blood cell count" required>
+                </div>
+                <!-- blood glucose random -->
+                <div class="mb-3">
+                    <label for="blood_glucose_random" class="form-label">Blood glucose random</label>
+                    <input type="number" step="any" class="form-control" id="blood_glucose_random" name="blood_glucose_random"
+                        placeholder="Blood glucose random" required>
+                </div>
+                <!-- Blood urea -->
+                <div class="mb-3">
+                    <label for="BloodPressure" class="form-label">Blood urea</label>
+                    <input type="number" step="any" class="form-control" id="blood_urea" name="blood_urea" placeholder="Blood urea"
+                        required>
+                </div>
+                <!-- Serum creatinine-->
+                <div class="mb-3">
+                    <label for="Insulin" class="form-label">Serum creatinine</label>
+                    <input type="number" step="any" class="form-control" id="serum_creatinine" name="serum_creatinine"
+                        placeholder="Serum Creatinine" required>
+                </div>
+                <!-- Packed cell volumne -->
+                <div class="mb-3">
+                    <label for="packed_cell_volume" class="form-label">Packed cell volumne</label>
+                    <input type="number" step="any" class="form-control" id="packed_cell_volume" name="packed_cell_volume"
+                        placeholder="Packed cell volume" required>
+                </div>
+                <!-- Albumin -->
+                <div class="mb-3">
+                    <label for="albumin" class="form-label">Albumin</label>
+                    <input type="number" step="any" class="form-control" id="albumin" name="albumin" placeholder="Albumin" required>
+                </div>
+                <!-- Haemoglobin -->
+                <div class="mb-3">
+                    <label for="haemoglobin" class="form-label">Haemoglobin</label>
+                    <input type="number" step="any" class="form-control" id="haemoglobin" name="haemoglobin"
+                        placeholder="Haemoglobin" required>
+                </div>
+                <!-- Age -->
+                <div class="mb-3">
+                    <label for="age" class="form-label">Age In Years</label>
+                    <input type="number" step="any" class="form-control" id="age" name="age" placeholder="Age in Years" required>
+                </div>
+                <!-- Sugar Level -->
+                <div class="mb-3">
+                    <label for="sugar" class="form-label">Sugar level</label>
+                    <input type="number" step="any" class="form-control" id="sugar" name="sugar" placeholder="Sugar level" required>
+                </div>
+                <!-- Hypertension -->
+                <div class="mb-3">
+                    <label for="hypertension" class="form-label">Hypertension</label>
+                    <input type="number" step="any" class="form-control" id="hypertension" name="hypertension"
+                        placeholder="Hypertension" required>
+                </div>
+
+                <button type="submit" class="btn btn-outline-dark">Submit</button>
+            </form>
+        </div>
+    </div>
+</div>
+{% endblock %}

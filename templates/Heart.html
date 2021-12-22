@@ -1,0 +1,145 @@
+{% extends "Layout.html" %}
+{% block title %}Heart Disease Prediction{% endblock %}
+{% block body %}
+
+<!-- Main Body -->
+<div class="container">
+    <h2>Know Your Chances Of Getting Heart Disease In One Click!</h2>
+    <hr>
+    <div class="row">
+        <div class="col-sm">
+            <img src="/static/healthy_heart.jpg" class="img-fluid" alt="Diabetes Detection Image">
+        </div>
+        <div class="col-sm">
+            <form action="/heart_predict" method="POST">
+                <!-- Age -->
+                <div class="mb-3">
+                    <label for="age" class="form-label">Age In Years</label>
+                    <input type="number" step="any" class="form-control" id="age" name="age" placeholder="Age in Years" required>
+                </div>
+
+                <!-- Sex -->
+                <fieldset class="row mb-3">
+                    <legend class="col-form-label col-sm-2 pt-0">Gender</legend>
+                    <div class="col-sm-10">
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="gender" id="male" value="1" checked>
+                            <label class="form-check-label" for="male">
+                                Male
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="gender" id="female" value="0">
+                            <label class="form-check-label" for="female">
+                                Female
+                            </label>
+                        </div>
+                    </div>
+                </fieldset>
+
+                <!-- Chect pain type -->
+                <div class="mb-3">
+                    <!-- Chect pain Type:
+                    1 = typical angina
+                    2 = atypical angina
+                    3 = non — anginal pain
+                    4 = asymptotic-->
+                    <label for="cp" class="form-label">Select Chest-pain type</label>
+                    <!-- <input type="text" class="form-control" id="cp" name="cp" placeholder="Chest Pain Type" required> -->
+
+                    <select class="form-select" id="chest_pain_type" name="chest_pain_type"
+                        placeholder="Chest Pain Type" required>
+                        <option value="1" selected>Typical Angina</option>
+                        <option value="2">Atypical Angina</option>
+                        <option value="3">Non-Anginal Pain</option>
+                        <option value="3">Asymptomatic</option>
+                    </select>
+                </div>
+
+                <!-- Resting Blood Pressure -->
+                <div class="mb-3">
+                    <label for="resting_blood_pressure" class="form-label">Resting Blood Pressure (in mm Hg)</label>
+                    <input type="number" step="any" class="form-control" id="resting_blood_pressure" name="resting_blood_pressure"
+                        placeholder="Resting Blood Pressure (in mm Hg)" required>
+                </div>
+
+                <!-- Serum Cholesterol -->
+                <div class="mb-3">
+                    <label for="cholesterol" class="form-label">Serum Cholesterol (in mg/dl)</label>
+                    <input type="number" step="any" class="form-control" id="cholesterol" name="cholesterol"
+                        placeholder="Serum Cholesterol" required>
+                </div>
+
+                <!-- Fasting Blood Sugar -->
+                <div class="mb-3">
+                    <label for="fasting_blood_sugar" class="form-label">Select Fasting Blood Sugar</label>
+                    <select class="form-select" id="fasting_blood_sugar" name="fasting_blood_sugar">
+                        <option value="1" selected>1</option>
+                        <option value="0">0</option>
+                    </select>
+                </div>
+
+                <!-- Resting ECG 
+                0 = normal
+                1 = having ST-T wave abnormality
+                2 = left ventricular hyperthrophy -->
+                <div class="mb-3">
+                    <label for="rest_ecg" class="form-label">Resting Electro-cardiographic Result</label>
+                    <select class="form-select" name="rest_ecg" id="rest_ecg" required>
+                        <option value="1" selected>Normal</option>
+                        <option value="2">Having ST-T wave abnormality</option>
+                        <option value="3">Showing probable or definite left ventricular hypertrophy</option>
+                    </select>
+                </div>
+
+                <!-- Maximum Heart Rate Achieved -->
+                <div class="mb-3">
+                    <label for="max_heart_rate_achieved" class="form-label">Maximum Heart Rate Achieved</label>
+                    <input type="number" step="any" class="form-control" id="max_heart_rate_achieved"
+                        name="max_heart_rate_achieved" placeholder="Maximum Heart Rate Achieved" required>
+                </div>
+
+                <!-- Exercise induced angina 
+                    1 = yes
+                    0 = no
+                 -->
+                <div class="mb-3">
+                    <label for="exang" class="form-label">Select Exercise induced angina</label>
+                    <select class="form-select" id="exercise_induced_angina" name="exercise_induced_angina">
+                        <option value="1">Yes</option>
+                        <option value="0">No</option>
+                    </select>
+                </div>
+
+                <!-- 
+                    ST depression induced by exercise relative to rest
+                 -->
+                <div class="mb-3">
+                    <label for="st_depression" class="form-label">ST depression induced by exercise relative to
+                        rest</label>
+                    <input type="number" step="any" class="form-control" id="st_depression" name="st_depression"
+                        placeholder="ST depression induced by exercise relative to rest" required>
+                </div>
+
+                <!--  11
+                    Peak exercise ST segment :
+                    1 = upsloping
+                    2 = flat
+                    3 = downsloping
+                 -->
+                <div class="mb-3">
+                    <label for="st_slope" class="form-label"> Select Peak exercise ST segment </label>
+                    <select class="form-select" aria-label="Default select example" id="st_slope" name="st_slope">
+                        <option value="1" selected>Upsloping</option>
+                        <option value="2">Flat</option>
+                        <option value="3">Downsloping</option>
+                    </select>
+                </div>
+
+                <button type="submit" class="btn btn-outline-dark">Submit</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
