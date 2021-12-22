@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'Kidney-Heart-Diabetes-Disease-Detection'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_6E54AB358D044FB18301EDBDB9C87466 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_6C8C8CC8DCFE43E48FBF77B779A063FB }}
