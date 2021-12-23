@@ -8,7 +8,7 @@ Problem statement :
 - To extend the role of technology in the medical field
 
 
-## About
+## About:
 - The website will have an About Page containing information about all the diseases i.e. Heart, Kidney, and diabetes, and Web pages with respect to each disease user have to put report information, and model will predict the results based on input. Using a Machine learning model is developed for each disease . 
 - The project's purpose is to produce an online health checkup facility to reduce the dependencies on the doctors, to help out the poor and helpless people with the medical checkup, and to extend the role of technology in the medical field HealthCare. 
 - Heart, Kidney, and Diabetes Disease Detection website will use machine learning to predict the results, it is an end-to-end website deployed using Azure Cloud services.
@@ -24,13 +24,13 @@ Problem statement :
 - Heart : heart_statlog_cleveland_hungary_final.csv [In this Respository]
 - Diabetes : https://www.kaggle.com/uciml/pima-indians-diabetes-database Pima Indian Diabetes Dataset
 
-## Folders
+## Folders:
 - Models_joblib: All the Models of the Project
 - Diabetes Detection Notebook: Contains data analysis and Prediction of Diabetes Model description
 - Heart Disease Detection Notebook: Contains detailed data analysis, Prediction of Heart disease with jupyter Notebook and data
 - Kidney Disease Detection Notebook: Contains all required for Kidney disease Prediction
 
-## Requirements
+## Requirements:
 - Python 3
 - Flask
 - Matplotlib
@@ -39,7 +39,7 @@ Problem statement :
 - HTML & CSS
 - Bootstrap
 
-## 🔗 Links
+## 🔗 Links:
 - Project: https://khd-disease-detection.azurewebsites.net/
 - linkedin - https://www.linkedin.com/in/pooja-bhagat-6282871a3
 
