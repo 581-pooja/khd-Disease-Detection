@@ -1,6 +1,6 @@
 # Heart, Kidney and Diabetes Disease Detection using Machine Learning
 
-Problem statement : 
+## Problem statement : 
 - In today's time, we see a lot of the shortage of doctors in the world, especially in India. A lot of people are suffering a lot without the help of the proper medical checkup. Due to Lockdown and Covid, people need a website or way to detect that there are chances of happening a disease or not so that people or even doctors can put details of the report of disease and Model will predict the chances of having disease and using that user may consult the doctors as soon as possible. So to cope up with all of those problems this app is designed which would prove its benefits up to much extent.
 - To remove the dependencies on the doctors 
 - To help out the poor and helpless people with the medical checkup 
@@ -47,26 +47,26 @@ I'm Pooja Bhagat undergraduate student at Lokmanya Tilak College of Engineering.
 
 
 ## Screenshots
-Home Page:
+### Home Page:
 
 ![App Screenshot](https://blogger.googleusercontent.com/img/a/AVvXsEieBd0o0XXlECoHR1GSKfAXIQtEGADiauqanHq4pNiGzfanNxALDyx6ooM5gIBalU_2yGt1HYB00edaljKWrwb_4dkQqWS8G6SDWOAdYFPQkg3LTuAy6YeTdUYbSGjxlnttCM9K9KEeMJPlT-UMmHnHqj3v68_wXCVaOdKhaZAlw5d5VBols2yUzG5f=s1920)
 
-Kidney disease check Page:
+### Kidney disease check Page:
 
 ![App Screenshot](https://blogger.googleusercontent.com/img/a/AVvXsEjRNYtpvRKbYvTvXHufOs7kHQORMqdcp0YqK6Cuq4RIfD-vdIEbc7eXtCDoEvEphZVqTBqDzT1Ucw13IACDNdisfPGNHxYqIz_rX7Iv7cEKAF-H0ElYPLUqX2kw46DwDRfe5FG5x-O0RfuDMkS1XiTcUOlu90LToH2NSzyOkGvTVj6KKDnj2COWJWxk=s1920)
 
-Diabetes disease check Page:
+### Diabetes disease check Page:
 
 ![App Screenshot](https://blogger.googleusercontent.com/img/a/AVvXsEhjjM0D26SyeCG1zc-hzAB4IWaCck77XCHbZzffOkaSopdEnl-VkRsFcRctEjSPsk2_u8YWxl7c9NSx6YxgvoYwUcuQka6gcldogA3LvUopOC2H5kag0SA5LbjyUHTxQtIdljQyfr072nKi48ra_cW9doDL3u4b68ZyLioFZng8JHUkI6M_iRuLeILJ=s1920)
 
-Heart disease check Page:
+### Heart disease check Page:
 
 ![App Screenshot](https://blogger.googleusercontent.com/img/a/AVvXsEhiPsdIKnABV4A512m1Ygksjvgq8rqrEJpOvJkrpdAwt-6AFzSPpYH2rnJ6h_5093S_FELXfUi-QRtVZLjGXL25zSF30H6KPzPMlW3jkGqYB3VXX5O5fOrGZ9OJ2rUctLNwqgBPr8JtR4P9qBM8xNCQZEWCxTiN3VFip-C4PT_RrAxRNmcIAk6Wym1j=s1920)
 
-Prediction Page:
+### Prediction Page:
 
 ![App Screenshot](https://blogger.googleusercontent.com/img/a/AVvXsEiI_JDKwgpZ_5Dy_y9HC-Tgqi_6iYoGP3UqPLZjva2SOIGDuRK6Yh2zBoNjG0U4G8a0eKJEAwtkumw7fAHlTsB90DvFppjnfZxVGADpAj3WFOOpJyEPCgj9_o_b86SzRLxYkIxTNRDBuwjmP5FEP9H2qGZXqeCwrM2NR1v84AwL2IamVE47avHq2vOj=s1920)
 
-About Page:
+### About Page:
 
 ![App Screenshot](https://blogger.googleusercontent.com/img/a/AVvXsEi_2SNt8RzMYIbpNHYaKiE5VSpZlR5OXh3VNoWPCjlRK6kD_yWvCBgA939C1hK45QKWyvxNgCBvOax9qkdUY2kcwhYzhkompQCG2Z85b2RmjzMRHW4wWB-41ulnT2aN26UE0CR_px2e_bT1vRd27j-1zkYbVeYtUryPJIYbxlvBoDDMsqkyY3DZG6cw=s1920)
