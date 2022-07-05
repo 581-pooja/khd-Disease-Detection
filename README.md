@@ -51,8 +51,6 @@ I'm Pooja Bhagat undergraduate student at Lokmanya Tilak College of Engineering.
 
 ![App Screenshot](https://blogger.googleusercontent.com/img/a/AVvXsEieBd0o0XXlECoHR1GSKfAXIQtEGADiauqanHq4pNiGzfanNxALDyx6ooM5gIBalU_2yGt1HYB00edaljKWrwb_4dkQqWS8G6SDWOAdYFPQkg3LTuAy6YeTdUYbSGjxlnttCM9K9KEeMJPlT-UMmHnHqj3v68_wXCVaOdKhaZAlw5d5VBols2yUzG5f=s1920)
 
-![App Screenshot](https://blogger.googleusercontent.com/img/a/AVvXsEieBd0o0XXlECoHR1GSKfAXIQtEGADiauqanHq4pNiGzfanNxALDyx6ooM5gIBalU_2yGt1HYB00edaljKWrwb_4dkQqWS8G6SDWOAdYFPQkg3LTuAy6YeTdUYbSGjxlnttCM9K9KEeMJPlT-UMmHnHqj3v68_wXCVaOdKhaZAlw5d5VBols2yUzG5f=s1920)
-
 ### Kidney disease check Page:
 
 ![App Screenshot](https://blogger.googleusercontent.com/img/a/AVvXsEjRNYtpvRKbYvTvXHufOs7kHQORMqdcp0YqK6Cuq4RIfD-vdIEbc7eXtCDoEvEphZVqTBqDzT1Ucw13IACDNdisfPGNHxYqIz_rX7Iv7cEKAF-H0ElYPLUqX2kw46DwDRfe5FG5x-O0RfuDMkS1XiTcUOlu90LToH2NSzyOkGvTVj6KKDnj2COWJWxk=s1920)
